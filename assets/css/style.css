@@ -674,6 +674,7 @@ a {
 }
 .about-page  .about-content-img img{
   filter: drop-shadow(10px 0px 16px #cccc);
+  border-radius: 0px 100px 0px;
 }
 .about-page .about-us-content p {
   font-size: 22px;
@@ -3983,8 +3984,19 @@ a {
   color: var(--e-global-color-secondary) !important;
 }
 .navbar-brand {
-  width: 150px;
+  width: 200px;
 }
 .navbar-brand img{
   width: 100%;
+}
+.event-content-img .icons-fig {
+  width: 100%;
+  text-align: center;
+
+}
+.event-content-img .icons-fig img{
+  width: 30%;
+}
+.new-icon{
+  width: 20% !important;
 }
